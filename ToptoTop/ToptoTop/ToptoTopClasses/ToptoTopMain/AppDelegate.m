@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TTConfig.h"
+#import "TTBaseViewController.h"
+#import "TTNavigationViewController.h"
+#import "TTHomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+      self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+   
+    
+    TTHomeViewController *homeVC = [[TTHomeViewController alloc] init];
+    TTNavigationViewController *nav = [[TTNavigationViewController alloc] initWithRootViewController:homeVC];
+    self.window.rootViewController = nav;
+    [self.window makeKeyWindow];
+    
+    
     return YES;
 }
 

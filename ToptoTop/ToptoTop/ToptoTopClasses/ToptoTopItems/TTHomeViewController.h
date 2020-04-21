@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TTHomeViewController.h
 //  ToptoTop
 //
 //  Created by 岳靖翔 on 2020/4/21.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface TTHomeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

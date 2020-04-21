@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		386DEFBE89C14F387FB235E9 /* libPods-ToptoTop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C95F65E825694A864BB14ED /* libPods-ToptoTop.a */; };
 		7C7BD633244EB2A300B525F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD632244EB2A300B525F9 /* AppDelegate.m */; };
-		7C7BD636244EB2A300B525F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD635244EB2A300B525F9 /* ViewController.m */; };
 		7C7BD639244EB2A300B525F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7BD637244EB2A300B525F9 /* Main.storyboard */; };
 		7C7BD63B244EB2C000B525F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7BD63A244EB2C000B525F9 /* Assets.xcassets */; };
 		7C7BD63E244EB2C000B525F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7BD63C244EB2C000B525F9 /* LaunchScreen.storyboard */; };
 		7C7BD641244EB2C000B525F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD640244EB2C000B525F9 /* main.m */; };
+		7C7BD64F244EBF0A00B525F9 /* cmd_configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C7BD64E244EBF0A00B525F9 /* cmd_configuration.plist */; };
+		7C7BD657244EC45400B525F9 /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD656244EC45400B525F9 /* TTBaseViewController.m */; };
+		7C7BD65A244EC48400B525F9 /* TTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD659244EC48400B525F9 /* TTNavigationViewController.m */; };
+		7C7BD65D244EC63500B525F9 /* TTDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD65C244EC63500B525F9 /* TTDefaultModel.m */; };
+		7C7BD660244EC74C00B525F9 /* TTChildCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD65F244EC74C00B525F9 /* TTChildCollectionViewCell.m */; };
+		7C7BD663244EC80900B525F9 /* TTChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD662244EC80900B525F9 /* TTChildViewController.m */; };
+		7C7BD666244ECA7D00B525F9 /* TTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD665244ECA7D00B525F9 /* TTHomeViewController.m */; };
+		7C7BD669244ECC8600B525F9 /* TTResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD668244ECC8600B525F9 /* TTResourceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +28,27 @@
 		7C7BD62E244EB2A300B525F9 /* ToptoTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToptoTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7BD631244EB2A300B525F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C7BD632244EB2A300B525F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7C7BD634244EB2A300B525F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C7BD635244EB2A300B525F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C7BD638244EB2A300B525F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C7BD63A244EB2C000B525F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C7BD63D244EB2C000B525F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C7BD63F244EB2C000B525F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C7BD640244EB2C000B525F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C7BD64E244EBF0A00B525F9 /* cmd_configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cmd_configuration.plist; sourceTree = "<group>"; };
+		7C7BD654244EC3C500B525F9 /* TTConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTConfig.h; sourceTree = "<group>"; };
+		7C7BD655244EC45400B525F9 /* TTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
+		7C7BD656244EC45400B525F9 /* TTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
+		7C7BD658244EC48400B525F9 /* TTNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTNavigationViewController.h; sourceTree = "<group>"; };
+		7C7BD659244EC48400B525F9 /* TTNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNavigationViewController.m; sourceTree = "<group>"; };
+		7C7BD65B244EC63500B525F9 /* TTDefaultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTDefaultModel.h; sourceTree = "<group>"; };
+		7C7BD65C244EC63500B525F9 /* TTDefaultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDefaultModel.m; sourceTree = "<group>"; };
+		7C7BD65E244EC74C00B525F9 /* TTChildCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTChildCollectionViewCell.h; sourceTree = "<group>"; };
+		7C7BD65F244EC74C00B525F9 /* TTChildCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTChildCollectionViewCell.m; sourceTree = "<group>"; };
+		7C7BD661244EC80900B525F9 /* TTChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTChildViewController.h; sourceTree = "<group>"; };
+		7C7BD662244EC80900B525F9 /* TTChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTChildViewController.m; sourceTree = "<group>"; };
+		7C7BD664244ECA7D00B525F9 /* TTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTHomeViewController.h; sourceTree = "<group>"; };
+		7C7BD665244ECA7D00B525F9 /* TTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTHomeViewController.m; sourceTree = "<group>"; };
+		7C7BD667244ECC8600B525F9 /* TTResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTResourceManager.h; sourceTree = "<group>"; };
+		7C7BD668244ECC8600B525F9 /* TTResourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTResourceManager.m; sourceTree = "<group>"; };
 		9C95F65E825694A864BB14ED /* libPods-ToptoTop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToptoTop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19DF6E3C3EA9DC7CDDEBA44 /* Pods-ToptoTop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToptoTop.debug.xcconfig"; path = "Target Support Files/Pods-ToptoTop/Pods-ToptoTop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +79,6 @@
 				D19DF6E3C3EA9DC7CDDEBA44 /* Pods-ToptoTop.debug.xcconfig */,
 				257A132AF9188CD092F04285 /* Pods-ToptoTop.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,10 +103,8 @@
 		7C7BD630244EB2A300B525F9 /* ToptoTop */ = {
 			isa = PBXGroup;
 			children = (
-				7C7BD631244EB2A300B525F9 /* AppDelegate.h */,
-				7C7BD632244EB2A300B525F9 /* AppDelegate.m */,
-				7C7BD634244EB2A300B525F9 /* ViewController.h */,
-				7C7BD635244EB2A300B525F9 /* ViewController.m */,
+				7C7BD64D244EBE6800B525F9 /* ToptoTopResource */,
+				7C7BD648244EBC5600B525F9 /* ToptoTopClasses */,
 				7C7BD637244EB2A300B525F9 /* Main.storyboard */,
 				7C7BD63A244EB2C000B525F9 /* Assets.xcassets */,
 				7C7BD63C244EB2C000B525F9 /* LaunchScreen.storyboard */,
@@ -94,6 +112,70 @@
 				7C7BD640244EB2C000B525F9 /* main.m */,
 			);
 			path = ToptoTop;
+			sourceTree = "<group>";
+		};
+		7C7BD648244EBC5600B525F9 /* ToptoTopClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7C7BD64C244EBD9400B525F9 /* ToptoTopTools */,
+				7C7BD64B244EBD7200B525F9 /* ToptoTopOthers */,
+				7C7BD649244EBCA100B525F9 /* ToptoTopMain */,
+				7C7BD64A244EBCBF00B525F9 /* ToptoTopItems */,
+			);
+			path = ToptoTopClasses;
+			sourceTree = "<group>";
+		};
+		7C7BD649244EBCA100B525F9 /* ToptoTopMain */ = {
+			isa = PBXGroup;
+			children = (
+				7C7BD631244EB2A300B525F9 /* AppDelegate.h */,
+				7C7BD632244EB2A300B525F9 /* AppDelegate.m */,
+				7C7BD655244EC45400B525F9 /* TTBaseViewController.h */,
+				7C7BD656244EC45400B525F9 /* TTBaseViewController.m */,
+				7C7BD658244EC48400B525F9 /* TTNavigationViewController.h */,
+				7C7BD659244EC48400B525F9 /* TTNavigationViewController.m */,
+				7C7BD654244EC3C500B525F9 /* TTConfig.h */,
+			);
+			path = ToptoTopMain;
+			sourceTree = "<group>";
+		};
+		7C7BD64A244EBCBF00B525F9 /* ToptoTopItems */ = {
+			isa = PBXGroup;
+			children = (
+				7C7BD664244ECA7D00B525F9 /* TTHomeViewController.h */,
+				7C7BD665244ECA7D00B525F9 /* TTHomeViewController.m */,
+				7C7BD661244EC80900B525F9 /* TTChildViewController.h */,
+				7C7BD662244EC80900B525F9 /* TTChildViewController.m */,
+				7C7BD65E244EC74C00B525F9 /* TTChildCollectionViewCell.h */,
+				7C7BD65F244EC74C00B525F9 /* TTChildCollectionViewCell.m */,
+				7C7BD65B244EC63500B525F9 /* TTDefaultModel.h */,
+				7C7BD65C244EC63500B525F9 /* TTDefaultModel.m */,
+			);
+			path = ToptoTopItems;
+			sourceTree = "<group>";
+		};
+		7C7BD64B244EBD7200B525F9 /* ToptoTopOthers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToptoTopOthers;
+			sourceTree = "<group>";
+		};
+		7C7BD64C244EBD9400B525F9 /* ToptoTopTools */ = {
+			isa = PBXGroup;
+			children = (
+				7C7BD667244ECC8600B525F9 /* TTResourceManager.h */,
+				7C7BD668244ECC8600B525F9 /* TTResourceManager.m */,
+			);
+			path = ToptoTopTools;
+			sourceTree = "<group>";
+		};
+		7C7BD64D244EBE6800B525F9 /* ToptoTopResource */ = {
+			isa = PBXGroup;
+			children = (
+				7C7BD64E244EBF0A00B525F9 /* cmd_configuration.plist */,
+			);
+			path = ToptoTopResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7BD64F244EBF0A00B525F9 /* cmd_configuration.plist in Resources */,
 				7C7BD63E244EB2C000B525F9 /* LaunchScreen.storyboard in Resources */,
 				7C7BD63B244EB2C000B525F9 /* Assets.xcassets in Resources */,
 				7C7BD639244EB2A300B525F9 /* Main.storyboard in Resources */,
@@ -210,9 +293,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C7BD636244EB2A300B525F9 /* ViewController.m in Sources */,
+				7C7BD65D244EC63500B525F9 /* TTDefaultModel.m in Sources */,
+				7C7BD65A244EC48400B525F9 /* TTNavigationViewController.m in Sources */,
+				7C7BD669244ECC8600B525F9 /* TTResourceManager.m in Sources */,
 				7C7BD641244EB2C000B525F9 /* main.m in Sources */,
+				7C7BD666244ECA7D00B525F9 /* TTHomeViewController.m in Sources */,
 				7C7BD633244EB2A300B525F9 /* AppDelegate.m in Sources */,
+				7C7BD663244EC80900B525F9 /* TTChildViewController.m in Sources */,
+				7C7BD660244EC74C00B525F9 /* TTChildCollectionViewCell.m in Sources */,
+				7C7BD657244EC45400B525F9 /* TTBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
