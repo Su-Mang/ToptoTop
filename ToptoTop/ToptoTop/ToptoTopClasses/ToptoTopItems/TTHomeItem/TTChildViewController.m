@@ -10,7 +10,7 @@
 #import "TTBaseViewController.h"
 #import "TTConfig.h"
 #import "TTChildCollectionViewCell.h"
-
+#import "TTJumpCtrManager.h"
 static NSString *const TTHomeCellIdentifity = @"TTChildCollectionViewCell";
 
 
@@ -98,16 +98,16 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section {
     
     TTChildCollectionViewCell *cell = (TTChildCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
     
-  // TTBaseViewController *vc = [AFRJumpCtrManager getVCFromText:cell.textLabel.text];
-//    if (vc != nil) {
-//        [self.navigationController pushViewController:vc animated:YES];
-//    }
-//    else {
-//        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"请先与Server建立链接" preferredStyle:UIAlertControllerStyleAlert];
-//        UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
-//        [alert addAction:action];
-//        [self presentViewController:alert animated:YES completion:nil];
-//    }
+   TTBaseViewController *vc = [TTJumpCtrManager getVCFromText:cell.textLabel.text];
+    if (vc != nil) {
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"请先与Server建立链接" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
+        [alert addAction:action];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
 }
 
 @end
