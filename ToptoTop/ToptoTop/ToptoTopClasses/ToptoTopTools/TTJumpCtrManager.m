@@ -13,6 +13,7 @@
 #import "TTFeedBackViewController.h"
 #import "TTBaseViewController.h"
 #import "TTClearCacheViewController.h"
+#import "TTFileListViewController.h"
 
 
 @implementation TTJumpCtrManager
@@ -56,12 +57,12 @@
 }
 + (NSDictionary *)dicForTextAndVC {
     
-    return @{g_afr_remotedevice      : @"AFRFileListViewController",
-             g_afr_pic              : @"AFRFileListViewController",
-             g_afr_music            : @"AFRFileListViewController",
-             g_afr_video            : @"AFRFileListViewController",
-             g_afr_doc              : @"AFRFileListViewController",
-             g_afr_down             : @"AFRFileListViewController",
+    return @{g_afr_remotedevice      : @"TTFileListViewController",
+             g_afr_pic              : @"TTFileListViewController",
+             g_afr_music            : @"TTFileListViewController",
+             g_afr_video            : @"TTFileListViewController",
+             g_afr_doc              : @"TTFileListViewController",
+             g_afr_down             : @"TTFileListViewController",
              g_afr_mouse            : @"AFRMouseCtrViewController",
              g_afr_voice            : @"AFRVoiceViewController",
              g_afr_volum            : @"AFRVALViewController",

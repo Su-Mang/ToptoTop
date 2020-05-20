@@ -11,6 +11,7 @@
 		7C12C3C4245C705B001BDD40 /* TTFileSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C12C3C3245C705B001BDD40 /* TTFileSectionHeader.m */; };
 		7C12C3CA245C7390001BDD40 /* TTLocaCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C12C3C9245C7390001BDD40 /* TTLocaCacheManager.m */; };
 		7C12C3D0245C809B001BDD40 /* TTClearCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C12C3CF245C809B001BDD40 /* TTClearCacheViewController.m */; };
+		7C31581624757B36006827CC /* TTWatchPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31581524757B36006827CC /* TTWatchPicViewController.m */; };
 		7C6EFC69245AB5B6006DDEED /* TTAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EFC68245AB5B6006DDEED /* TTAboutUsViewController.m */; };
 		7C6EFC6E245ABBEE006DDEED /* TTFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EFC6D245ABBEE006DDEED /* TTFileModel.m */; };
 		7C7BD633244EB2A300B525F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD632244EB2A300B525F9 /* AppDelegate.m */; };
@@ -33,6 +34,10 @@
 		7CF796CA24572D0D008FA89B /* TTQAndATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF796C924572D0D008FA89B /* TTQAndATableViewCell.m */; };
 		7CF796D62457361A008FA89B /* TTJumpCtrManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF796D52457361A008FA89B /* TTJumpCtrManager.m */; };
 		7CF796D924573B38008FA89B /* TTFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF796D824573B38008FA89B /* TTFeedBackViewController.m */; };
+		7CFB28862474251D00056B66 /* TTFileToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB28852474251D00056B66 /* TTFileToolView.m */; };
+		7CFB28892474286300056B66 /* TTFileListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB28882474286300056B66 /* TTFileListTableViewCell.m */; };
+		7CFB288C24742B4F00056B66 /* TTFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB288B24742B4F00056B66 /* TTFileListViewController.m */; };
+		7CFB288F24742CF900056B66 /* TTFileLookUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB288E24742CF900056B66 /* TTFileLookUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +48,8 @@
 		7C12C3C9245C7390001BDD40 /* TTLocaCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLocaCacheManager.m; sourceTree = "<group>"; };
 		7C12C3CE245C809B001BDD40 /* TTClearCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTClearCacheViewController.h; sourceTree = "<group>"; };
 		7C12C3CF245C809B001BDD40 /* TTClearCacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTClearCacheViewController.m; sourceTree = "<group>"; };
+		7C31581424757B36006827CC /* TTWatchPicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TTWatchPicViewController.h; path = ToptoTop/ToptoTopClasses/ToptoTopItems/TTFileItem/TTWatchPicViewController.h; sourceTree = SOURCE_ROOT; };
+		7C31581524757B36006827CC /* TTWatchPicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TTWatchPicViewController.m; path = ToptoTop/ToptoTopClasses/ToptoTopItems/TTFileItem/TTWatchPicViewController.m; sourceTree = SOURCE_ROOT; };
 		7C6EFC67245AB5B6006DDEED /* TTAboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAboutUsViewController.h; sourceTree = "<group>"; };
 		7C6EFC68245AB5B6006DDEED /* TTAboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAboutUsViewController.m; sourceTree = "<group>"; };
 		7C6EFC6B245AB896006DDEED /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
@@ -86,6 +93,14 @@
 		7CF796D52457361A008FA89B /* TTJumpCtrManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTJumpCtrManager.m; sourceTree = "<group>"; };
 		7CF796D724573B38008FA89B /* TTFeedBackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFeedBackViewController.h; sourceTree = "<group>"; };
 		7CF796D824573B38008FA89B /* TTFeedBackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFeedBackViewController.m; sourceTree = "<group>"; };
+		7CFB28842474251D00056B66 /* TTFileToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFileToolView.h; sourceTree = "<group>"; };
+		7CFB28852474251D00056B66 /* TTFileToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFileToolView.m; sourceTree = "<group>"; };
+		7CFB28872474286300056B66 /* TTFileListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFileListTableViewCell.h; sourceTree = "<group>"; };
+		7CFB28882474286300056B66 /* TTFileListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFileListTableViewCell.m; sourceTree = "<group>"; };
+		7CFB288A24742B4F00056B66 /* TTFileListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFileListViewController.h; sourceTree = "<group>"; };
+		7CFB288B24742B4F00056B66 /* TTFileListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFileListViewController.m; sourceTree = "<group>"; };
+		7CFB288D24742CF900056B66 /* TTFileLookUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFileLookUpViewController.h; sourceTree = "<group>"; };
+		7CFB288E24742CF900056B66 /* TTFileLookUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFileLookUpViewController.m; sourceTree = "<group>"; };
 		9C95F65E825694A864BB14ED /* libPods-ToptoTop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToptoTop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19DF6E3C3EA9DC7CDDEBA44 /* Pods-ToptoTop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToptoTop.debug.xcconfig"; path = "Target Support Files/Pods-ToptoTop/Pods-ToptoTop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -270,14 +285,22 @@
 		7CF796C3245725F5008FA89B /* TTFileItem */ = {
 			isa = PBXGroup;
 			children = (
+				7CFB288A24742B4F00056B66 /* TTFileListViewController.h */,
+				7CFB288B24742B4F00056B66 /* TTFileListViewController.m */,
+				7CFB28872474286300056B66 /* TTFileListTableViewCell.h */,
+				7CFB28882474286300056B66 /* TTFileListTableViewCell.m */,
+				7CBDA7E824605F8900F86525 /* TTPAVViewController.h */,
+				7CBDA7E924605F8900F86525 /* TTPAVViewController.m */,
+				7CBDA7E524605C6F00F86525 /* TTPAVCollectionViewCell.h */,
+				7CBDA7E624605C6F00F86525 /* TTPAVCollectionViewCell.m */,
+				7CFB288D24742CF900056B66 /* TTFileLookUpViewController.h */,
+				7CFB288E24742CF900056B66 /* TTFileLookUpViewController.m */,
 				7C6EFC6C245ABBEE006DDEED /* TTFileModel.h */,
 				7C6EFC6D245ABBEE006DDEED /* TTFileModel.m */,
 				7C12C3C2245C705B001BDD40 /* TTFileSectionHeader.h */,
 				7C12C3C3245C705B001BDD40 /* TTFileSectionHeader.m */,
-				7CBDA7E524605C6F00F86525 /* TTPAVCollectionViewCell.h */,
-				7CBDA7E624605C6F00F86525 /* TTPAVCollectionViewCell.m */,
-				7CBDA7E824605F8900F86525 /* TTPAVViewController.h */,
-				7CBDA7E924605F8900F86525 /* TTPAVViewController.m */,
+				7CFB28842474251D00056B66 /* TTFileToolView.h */,
+				7CFB28852474251D00056B66 /* TTFileToolView.m */,
 			);
 			path = TTFileItem;
 			sourceTree = "<group>";
@@ -285,6 +308,8 @@
 		7CF796C424572607008FA89B /* TTConnectItem */ = {
 			isa = PBXGroup;
 			children = (
+				7C31581424757B36006827CC /* TTWatchPicViewController.h */,
+				7C31581524757B36006827CC /* TTWatchPicViewController.m */,
 			);
 			path = TTConnectItem;
 			sourceTree = "<group>";
@@ -404,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFB28862474251D00056B66 /* TTFileToolView.m in Sources */,
 				7C6EFC6E245ABBEE006DDEED /* TTFileModel.m in Sources */,
 				7CF796CA24572D0D008FA89B /* TTQAndATableViewCell.m in Sources */,
 				7C7BD65D244EC63500B525F9 /* TTDefaultModel.m in Sources */,
@@ -420,11 +446,15 @@
 				7C7BD633244EB2A300B525F9 /* AppDelegate.m in Sources */,
 				7CBDA7EA24605F8900F86525 /* TTPAVViewController.m in Sources */,
 				7C7BD663244EC80900B525F9 /* TTChildViewController.m in Sources */,
+				7CFB288F24742CF900056B66 /* TTFileLookUpViewController.m in Sources */,
 				7C7BD660244EC74C00B525F9 /* TTChildCollectionViewCell.m in Sources */,
 				7CF796D62457361A008FA89B /* TTJumpCtrManager.m in Sources */,
+				7CFB288C24742B4F00056B66 /* TTFileListViewController.m in Sources */,
+				7C31581624757B36006827CC /* TTWatchPicViewController.m in Sources */,
 				7CF796C724572BB4008FA89B /* TTQAndAViewController.m in Sources */,
 				7C7BD657244EC45400B525F9 /* TTBaseViewController.m in Sources */,
 				7C12C3CA245C7390001BDD40 /* TTLocaCacheManager.m in Sources */,
+				7CFB28892474286300056B66 /* TTFileListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

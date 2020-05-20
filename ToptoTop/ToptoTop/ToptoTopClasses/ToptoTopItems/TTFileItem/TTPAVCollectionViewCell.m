@@ -32,8 +32,12 @@
 - (void)layoutSubviews {
     [super  layoutSubviews];
     [_cellImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.height.width.top.left.mas_equalTo(self);
+        make.top.left.mas_equalTo(self).offset(10);
+        make.bottom.mas_equalTo(self);
+        make.width.mas_equalTo(self).offset(-20);
+    
     }];
+    _cellImageView.contentMode = UIViewContentModeScaleAspectFit;
     
     [_picNameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.mas_equalTo(self->_cellImageView.mas_bottom);
@@ -41,10 +45,18 @@
         make.height.mas_equalTo(25);
     }];
     
+    _picNameLabel.backgroundColor = g_rgba(108, 108, 108, 0.8);
+    _picNameLabel.textColor = [UIColor blackColor];
+    _picNameLabel.font = [UIFont systemFontOfSize:12];
+    _picNameLabel.layer.cornerRadius = 2;
+    _picNameLabel.layer.masksToBounds = YES;
+   
+    
     [_videoStartImage mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(self->_cellImageView);
         make.width.height.mas_equalTo(40);
     }];
+    
     
 }
 @end

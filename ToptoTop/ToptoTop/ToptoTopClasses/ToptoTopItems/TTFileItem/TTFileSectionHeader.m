@@ -24,7 +24,7 @@
     self.pathLabel.textColor = [UIColor grayColor];
     
     self.pathLabel.font = [UIFont systemFontOfSize:g_width_6(13.f)];
-    self.pathLabel.backgroundColor = [UIColor redColor];
+   // self.pathLabel.backgroundColor = [UIColor redColor];
     [self addSubview:self.pathLabel];
 }
 

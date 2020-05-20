@@ -13,6 +13,7 @@
 #import <Photos/Photos.h>
 #import <AVKit/AVKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "TTWatchPicViewController.h"
 typedef void(^TTAuthorCallBack)(BOOL isAuthor);
 static NSString * const kTTPAVCollectionCell = @"kTTPAVCollectionCell";
 @interface TTPAVViewController ()<UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource> {
@@ -286,9 +287,9 @@ static NSString * const kTTPAVCollectionCell = @"kTTPAVCollectionCell";
 - (void)lookUpOperationWithRow:(NSInteger)row {
     TTFileModel *model = self.dataArray[row];
     if (self.isPic) {
-//        AFRWatchPicViewController *vc = [[AFRWatchPicViewController alloc] init];
-//        vc.picImage = model.fileImage;
-//        [self.navigationController pushViewController:vc animated:YES];
+       TTWatchPicViewController *vc = [[TTWatchPicViewController alloc] init];
+        vc.picImage = model.fileImage;
+        [self.navigationController pushViewController:vc animated:YES];
     }
     else {
         // 加载视频播放
